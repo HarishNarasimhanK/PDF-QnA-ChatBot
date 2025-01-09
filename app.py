@@ -104,7 +104,7 @@ if groq_api_key:
                 chunk_overlap = 500
             )
             msg = st.empty()
-            msg.info("PDF is getting uplaoded...Please wait")
+            msg.info("PDF is getting uploaded...Please wait")
             docs = text_splitter.split_documents(docs)
             vectorstore = FAISS.from_documents(
                 docs,
