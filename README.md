@@ -2,6 +2,8 @@
 
 This Streamlit app enables a user to upload a PDF file, and ask questions about its content in a conversational format. The app leverages Groq's API, LangChain's retrieval-augmented generation (RAG), Hugging Face embeddings, and FAISS for vector database management.
 
+App url: https://pdf-qna-chatbot-bfysaw8jvtd5ujqyslgnqb.streamlit.app/
+
 ## Features
 
 1. **PDF Upload and Parsing:**
@@ -35,7 +37,7 @@ pip install -r requirements.txt
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo/conversational-rag
+   git clone https://github.com/HarishNarasimhanK/PDF-QnA-ChatBot
    cd conversational-rag
    ```
 
