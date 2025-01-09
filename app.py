@@ -170,7 +170,7 @@ if groq_api_key:
 
             user_input = st.text_input("Ask the question through text \'or\' voice")
             # Initialize Groq client
-            client = Groq(groq_api_key)
+            client = Groq(api_key=groq_api_key)
             audio_input = st.audio_input("ASK", label_visibility="collapsed")
             if user_input or audio_input:
                 session_history = get_session_history(session_id)
