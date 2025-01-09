@@ -25,10 +25,10 @@ This Streamlit app enables a user to upload a PDF file, and ask questions about 
 
 ### Installation
 
-Ensure the following Python packages are installed:
+Ensure that you installed the dependencies:
 
 ```bash
-pip install streamlit langchain langchain-huggingface langchain-groq langchain-community langchain-core faiss-cpu groq
+pip install -r requirements.txt
 ```
 
 ## How to Run the App
