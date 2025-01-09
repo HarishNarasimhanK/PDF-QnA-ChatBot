@@ -17,5 +17,3 @@ langchain-openai
 chromadb
 langchain-chroma
 pydub
-tempfile
-groq
